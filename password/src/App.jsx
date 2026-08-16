@@ -1,4 +1,4 @@
-import InputPassword from "./components/inputPassword";
+import InputPassword from "./components/inputpassword";
 import "./App.css";
 
 function App() {
