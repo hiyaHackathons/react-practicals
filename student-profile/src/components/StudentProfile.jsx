@@ -1,16 +1,25 @@
 function StudentProfile({ name, age, course, college }) {
   return (
-    
+    <div>
+      <h2>Student Information</h2>
 
+      <p>
+        <strong>Name:</strong> {name}
+      </p>
 
-<div>
-<h2>Student Information</h2>
-<p><strong>Name:</strong> {props.name}</p>
-<p><strong>Roll No:</strong> {props.rollNo}</p>
-<p><strong>Course:</strong> {props.course}</p>
-<p><strong>Marks:</strong> {props.marks}</p>
-</div>
-);
+      <p>
+        <strong>Age:</strong> {age}
+      </p>
+
+      <p>
+        <strong>Course:</strong> {course}
+      </p>
+
+      <p>
+        <strong>College:</strong> {college}
+      </p>
+    </div>
+  );
 }
 
 export default StudentProfile;
