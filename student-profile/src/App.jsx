@@ -4,7 +4,6 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-700 via-purple-600 to-indigo-700 px-6 py-16">
 
-      {/* Heading */}
       <div className="mb-14 text-center">
         <h1 className="text-5xl font-extrabold tracking-wide text-white drop-shadow-lg">
           Student Profile
@@ -17,7 +16,6 @@ function App() {
         <div className="mx-auto mt-5 h-1 w-32 rounded-full bg-white/80"></div>
       </div>
 
-      {/* Cards */}
       <div className="flex flex-wrap justify-center gap-12">
 
         <StudentProfile
