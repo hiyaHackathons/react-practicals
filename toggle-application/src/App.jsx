@@ -1,4 +1,4 @@
-import LoginLogout from "./components/Loginlogout";
+import LoginLogout from "./components/loginlogout";
 import "./App.css";
 
 function App() {
