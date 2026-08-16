@@ -1,4 +1,4 @@
-import ChangeColor from "./components/changeColor";
+import ChangeColor from "./components/changecolor";
 
 function App() {
   return <ChangeColor />;

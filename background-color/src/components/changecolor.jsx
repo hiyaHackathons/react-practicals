@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function changeColor() {
+function ChangeColor() {
   const [color, setColor] = useState("white");
 
   const handleColorChange = (event) => {
@@ -31,4 +31,4 @@ function changeColor() {
   );
 }
 
-export default changeColor;
+export default ChangeColor;
